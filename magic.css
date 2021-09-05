@@ -207,3 +207,11 @@ hr.divider {
   100% { left: 110%; opacity: 0; }
 }
 */
+canvas {
+   background:none;
+   margin:auto;
+   position:fixed;
+   left:50%;
+   top:50%;
+   transform:translateX(-50%) translateY(-50%);
+}
