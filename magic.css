@@ -5,7 +5,7 @@ html {
 body{
   background-color: #f1f1f1;
   font-family: Roboto-mono;
-  
+  overflow-x: hidden;
 }
 #welcome h1{
   color: rgb(226, 181, 96);
@@ -159,7 +159,7 @@ hr.divider {
   color: #cecece;
   background: #222;
   overflow: hidden;
-}*/
+}
 
 .item-1, 
 .item-2, 
@@ -206,3 +206,4 @@ hr.divider {
   74.96%, 91.62% { left: 25%; opacity: 1; }
   100% { left: 110%; opacity: 0; }
 }
+*/
