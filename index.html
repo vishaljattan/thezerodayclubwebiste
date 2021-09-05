@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="magic.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <title>The Zero Day Club</title>
+        
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-sm navbar-collapse sticky-top navbar-light">
+        
+        <ul class="navbar-nav">
+          <a class="navbar-brand" href="#" id="nav-wlcm-text">The Zero Day Club</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Team">Team</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+      <section id="welcome" class="container-fluid text-center">
+        <div id="welcome-stuff">
+          <video src="The_Zero_Day.mp4" autoplay loop id="wlcm-video"><h1>The Zero Day Club </h1><br>
+          <div class="btn-group-vertical">
+          <button id="join_btn" class="btn btn-dark" onclick="location.href='form1.html'"><span>Join the Club</span></button>
+          <button id="learn_btn" class="btn" onclick="location.href='#About'"><span>Learn More</span></button>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section id="About">
+        <div class="container container-fluid text-center">
+          <h2><u>About Zero Day Club</u></h2>
+          <hr class="divider my-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum pretium dolor, eget volutpat lacus pharetra eu. Maecenas interdum, nunc fermentum luctus fringilla, odio nisi fermentum dui, sit amet efficitur velit est a est. Nullam sagittis bibendum felis. Curabitur sagittis, turpis a consequat iaculis, metus massa ullamcorper ipsum, quis mattis magna felis non risus. Phasellus erat urna, rhoncus non suscipit ac, eleifend a lacus. Proin facilisis lectus at ullamcorper tempor. Integer orci turpis, hendrerit eget ex nec, commodo egestas erat. Donec sit amet est diam. Suspendisse elementum leo quis lorem congue vestibulum. Quisque in mi facilisis, laoreet mi eget, varius erat.</p>
+        </div>
+      </section>
+      <section id="events" class="text-center">
+        <p><i class="fa fa-4x fa-bullhorn" aria-hidden="true"></i></p>
+        <h2><u>Upcoming events</u></h2>
+        <hr class="divider my-4">
+        <div id="past">
+        <h2><u>Past Events</u></h2>
+        <hr class="divider my-3">
+        </div>
+      </section>
+      <section id="Team">
+       
+        <!-- The Modal 1-->
+        <div id="modal1" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="pics/vishal.png" width="100%" height="auto" class="mx-auto"><h3 class="text-center">Vishal Jattan</h3>
+            <ul>
+              <li>Role - Admin </li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      
+ <!-- The Modal 3-->
+ <div id="modal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal 2..</p>
+  </div>
+
+ </div>
+ <!-- The Modal 3-->
+ <div id="modal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal 3..</p>
+  </div>
+
+ </div>
+ <h2 class="text-center"><u>Our Team</u></h2>
+ <hr class="divider my-3">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 text-center">
+        <input type="image" src="pics/vishalDP.jpg" id="myBtn1" onclick="display('modal1',0)" class="modalBtn">
+        <h2 class="h4 mb-2">Vishal Jattan</h2>
+            <p class="text-muted mb-0 text-blue">Admin</p>
+      </div>
+      <div class="col-lg-4 col-md-6 text-center">
+        <input type="image" src="pics/vishalDP.jpg" id="myBtn1" onclick="display('modal2',1)" class="modalBtn">
+        <h2 class="h4 mb-2">Vishal Jattan</h2>
+            <p class="text-muted mb-0 text-blue">Admin</p>
+      </div>  
+        <div class="col-lg-4 col-md-6 text-center">
+          <input type="image" src="pics/vishalDP.jpg" id="myBtn1" onclick="display('modal3',2)" class="modalBtn">
+          <h2 class="h4 mb-2">Vishal Jattan</h2>
+                <p class="text-muted mb-0 text-blue">Admin</p>
+          </div>
+        </div>  
+    </div>
+     
+  </div>
+</section>
+<script src="myScript.js"></script>
+</body>
+<footer>
+  <div class="container container-fluid">
+  <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="blockquote-footer text-center text-white"> Maintained by Sonic Warrior</div>
+                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+ </div>               
+</footer>
+</html>
