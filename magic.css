@@ -154,12 +154,12 @@ hr.divider {
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
-body { 
+/*body { 
   font-family: 'Open Sans', 'sans-serif';
   color: #cecece;
   background: #222;
   overflow: hidden;
-}
+}*/
 
 .item-1, 
 .item-2, 
