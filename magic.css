@@ -156,6 +156,7 @@ hr.divider {
   font-weight: bold;
   color: black;
   background-color: #F1F1F1;
+  width: 100%
 }
 
 /* unvisited link */
