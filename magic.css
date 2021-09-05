@@ -29,6 +29,7 @@ nav ul li{
   font-size: 20px;
   padding: 5px;
   color: rgb(247, 245, 243);
+  text-decoration: none;
 }
 nav{
   background-color: rgb(108, 110, 110);
