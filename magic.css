@@ -79,8 +79,13 @@ hr.divider {
   margin-top: 10px;
 }
 #past{
-  background-color: rgb(68, 67, 67);
+  background-color: rgb(68, 67, 67); 
 }
+#past ul li{
+color: white;
+  font-size: 30px;
+}
+
 #Team{
   padding-top: 20px;
 }
