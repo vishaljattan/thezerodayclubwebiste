@@ -8,19 +8,38 @@ body{
   overflow-x: hidden;
 }
 
-img{
-  width: 10%;
-  height: auto;
-  border-radius: 50%;
-}
+
 #welcome-stuff{
     margin-top: 10vh;
     height: 65vh;
     margin-bottom: 12vw;
 }
-#wlcm-video{
-  width: 30%;
-  height: auto;
+@media (max-width:767px) {
+  #wlcm-video {
+      max-width: 90%;
+      max-height: 90%;
+  }
+}
+
+@media (min-width:768px) {
+  #wlcm-video {
+      max-width: 200px;
+      max-height: 200px;
+  }
+}
+
+@media (min-width:992px) {
+  #wlcm-video {
+      max-width: 314px;
+      max-height: 314px;
+  }
+}
+
+@media (min-width:1200px) {
+  #wlcm-video {
+      max-width: 380px;
+      max-height: 380px;
+  }
 }
 nav ul li{
   font-size: 20px;
