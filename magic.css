@@ -14,8 +14,9 @@ img{
   border-radius: 50%;
 }
 #welcome-stuff{
-  margin-top: 10vh;
-  padding-bottom: 40px;
+    margin-top: 10vh;
+    height: 69vh;
+    margin-bottom: 12vw;
 }
 #wlcm-video{
   width: 30%;
