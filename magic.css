@@ -8,6 +8,9 @@ body{
   overflow-x: hidden;
 }
 
+#wlcm-video{
+  border-radius: 50%;
+}
 
 #welcome-stuff{
     margin-top: 10vh;
@@ -106,8 +109,30 @@ color: white;
   font-size: 25px;
 }
 
-#Team{
+#ctf{
+
   padding-top: 20px;
+  margin: auto;
 }
+#ctf #cont{
+  background-color: #ccc;
+  border: 4px black;
+  border-style: outset;
+  background: transparent;
+    color: black;
+    font-size: 1em;
+    width: auto;
+    margin-bottom: 10px;
+    
+
+}
+#Team{
+
+  padding-top: 20px;
+  background-color: rgb(68, 67, 67);
+  color: white;
+}
+
+
 
 
