@@ -99,11 +99,11 @@ textarea {
 }
 
 .rounded-social-buttons .social-button.instagram {
-  background: #bc2a8d;
+  background: #da27c5;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-  color: #bc2a8d;
+  color: #da27c5;
   background: #fefefe;
-  border-color: #bc2a8d;
+  border-color: #da27c5;
 }
