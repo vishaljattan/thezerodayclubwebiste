@@ -51,14 +51,7 @@ nav ul li{
   color: rgb(247, 245, 243);
   text-decoration: none;
 }
-nav{
-  background-color: rgb(108, 110, 110);
-  position: fixed;
-}
-#nav-wlcm-text{
-  font-size: 30px;
 
-}
 
 #join_btn{
   border-top-left-radius: 50px;
