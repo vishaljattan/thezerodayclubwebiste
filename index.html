@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head>   
         <!-- Meta tags-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-        
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link rel="stylesheet/less" type="text/css" href="styles.less" />
 <script src="less.js" type="text/javascript"></script>
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <link rel="stylesheet" href="magic.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -53,7 +54,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
 
 }
 
@@ -71,8 +72,6 @@ body {
   background-color: #ddd;
   color: black;
 }
-
-
 
 .topnav .icon {
   display: none;
@@ -107,8 +106,8 @@ body {
   <a href="#">Home</a>
   <a href="#About">About</a>
   <a href="#events">Event</a>
-  <a href="#Team">Team</a>
   <a href="#ctf">CTF</a>
+  <a href="#Team">Team</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -117,10 +116,10 @@ body {
 
       <section id="welcome" class="container-fluid text-center">
               <div id="welcome-stuff">
-          <h2 style="text-shadow: 2px 2px 5px green; font-style: italic; font-family: Oswald;" >Computer Science and Engineering Department Presents</h2>
+          <h2 style="text-shadow: 2px 2px 5px green; font-style: italic; font-family: Oswald; margin-top: -20px;" >Computer Science and Engineering Department</h2>
         <a href="thezerodayclub.tech">  <img src=" The Zero Day.gif " autoplay loop id="wlcm-video"></a> 
             <img src="Punjabi_University,_Patiala_Logo.png" alt="University logo" width="125" height="125" style="position:absolute;top: 60px;right: 15px;width: 9.5vw;height: auto;">
-              
+            <br>
             <br>
           <div class="btn-group-vertical">
           <button id="join_btn" class="btn btn-dark" onclick="location.href='form1.html'"><span>Join the Club</span></button>
@@ -137,7 +136,36 @@ body {
             
             <em><b style="text-align: center; color:white; font-size: 30px; font-family: dancing script;" >   "Pray for the Best, Prepare for the Worst and Expect the Unexpected" </b></em><br>
             
-          <p>The Zero Day Club is a cyber-security club at Punjabi University, Patiala. Our motive is to teach students and aware them about hacking and its applicaions also how to overcome being a victim of a cyber attack.</p>
+          <p>The Zero Day Club is a <span style="color: rgb(243, 0, 49);">cyber-security club</span> at Punjabi University, Patiala. Our motive is to teach students and aware them about <span style="color: rgb(49, 243, 42);">hacking and its applicaions</span> also how to overcome being a victim of a<span style="color: gold;"> cyber attack</span>. We thrive to provide opportunities to learn & access deep technical content by hosting<span style="color: rgb(0, 110, 255);"> cool training workshops</span>, collaborating with amazing community members, organizing tech talks and various conferences.</p>
+        </div>
+      </section>
+      <section id="Things">
+        <div class="container container-fluid">
+          <h2 class="text-center"><u>Things we Teach</u></h2>
+          <hr class="divider my-4">
+          <div class="row">
+            <div class="col text-center">
+              <i class="fas fa-7x fa-shield-alt" style="color: rgb(204, 23, 23);"></i>
+              <h2 style="color: rgb(204, 23, 23);">Cyber Security</h2>
+              <p>Cybersecurity or information technology security is the protection of computer systems and networks from information disclosure,theft of or damage to their hardware,software,or electronic data and disruption or misdirection of the services they provide.</p>
+            </div>
+            <div class="col text-center">
+              <i class="fab fa-7x fa-linux" style="color: black;"></i>
+              <h2>Linux</h2>
+              <p>Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution</p>
+            </div>
+            <div class="col text-center">
+              <i class="fas fa-7x fa-server" style="color: blue;"></i>
+              <h2 style="color: blue;">Networking</h2>
+              <p>Networking is the practice of transporting and exchanging data between nodes over a shared medium in an information system. Networking comprises not only the design, construction and use of a network, but also the management, maintenance and operation of the network infrastructure, software and policies.</p>
+            </div>
+            <div class="col text-center">
+              <i class="fab fa-7x fa-python" style="color: rgb(253, 194, 32);"></i>
+              <h2 style="color: rgb(253, 194, 32);">Python</h2>
+              <p>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects</p>
+            </div>
+            
+          </div>
         </div>
       </section>
 
@@ -163,6 +191,7 @@ Our first ctf was based on concepts taught in previous classes.
       <section id="ctf">
         <h2 class="text-center" ><i class="fas fa-2x fa-user-secret"></i></h2>
         <h2 class="text-center"><u>Ctf Winners</u></h2>
+        <hr class="divider my-4">
         <div class="container container-fluid" id="cont"> 
         
 <div style="padding: 10px;">
@@ -173,31 +202,62 @@ Our first ctf was based on concepts taught in previous classes.
         
       </section>
       <section id="Team">
-       
-      
-
- </div>
-
-
-         
-        <h2 class="text-center" ><i class="fas fa-2x  fa-users"></i></h2>
- <h2 class="text-center" ><u>Our Team</u></h2>
- <hr class="divider my-3">
-   
-</section>
+        <div class="container container-fluid">
+          <h2 class="text-center" ><i class="fas fa-2x  fa-users"></i></h2>
+          <h2 class="text-center" ><u>Our Team</u></h2>
+          <hr class="divider my-3">
+          <div class="row">
+            <div class="col">
+              <div class="head-container">
+                <img src="/pics/vishalDP.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <a href="https://instagram.com/thezeroday.pup" class="icon" target="_blank">
+                  <i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="head-container">
+                <img src="/pics/vishalDP.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <a href="https://instagram.com/thezeroday.pup" class="icon" target="_blank">
+                  <i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="head-container">
+                <img src="/pics/vishalDP.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <a href="https://instagram.com/thezeroday.pup" class="icon" target="_blank">
+                  <i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="head-container">
+                <img src="/pics/vishalDP.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <a href="https://instagram.com/thezeroday.pup" class="icon" target="_blank">
+                  <i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 <script src="myScript.js"></script>
 </body>
 <footer>
   <div class="container container-fluid">
-  <div class="rounded-social-buttons">
-                    
-                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a class="social-button youtube" href="https://www.github.com/vishaljattan" target="_blank"><i class="fab fa-github"></i></a>
-                    <a class="social-button instagram" href="https://www.instagram.com/thezeroday.pup/"et="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="blockquote-footer text-center text-white"> Maintained by Zero Day Team</div>
-                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <div class="rounded-social-buttons">
+      <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a class="social-button youtube" href="https://www.github.com/vishaljattan" target="_blank"><i class="fab fa-github"></i></a>
+      <a class="social-button instagram" href="https://www.instagram.com/thezeroday.pup/"et="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  <div class="blockquote-footer text-center text-white"> Maintained by Zero Day Team</div>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
  </div>               
 </footer>
 </html>
