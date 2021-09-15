@@ -1,12 +1,22 @@
 html {
   font-size: 1rem;
   scroll-behavior: smooth;
+
 }
 
 body{
-  background-color: #f1f1f1;
   font-family: Roboto-mono;
   overflow-x: hidden;
+  background-image: url('/bg/low_poly_banner_design_2203.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #wlcm-video{
@@ -16,12 +26,15 @@ body{
 #welcome-stuff{
     margin-top: 10vh;
     height: 65vh;
-    margin-bottom: 12vw;
+    margin-bottom: 25vh;
 }
 @media (max-width:767px) {
   #wlcm-video {
-      max-width: 90%;
-      max-height: 90%;
+      max-width: 85%;
+      max-height: 850%;
+  }
+  #welcome-stuff h2{
+    font-size: 20px;
   }
 }
 
@@ -77,10 +90,10 @@ hr{
 hr.divider {
   max-width: 1.5px;
   border-width: 50px;
-  border-color: aquamarine;
+  border-color: rgb(255, 187, 0);
 }
 #About {
-  background-color: rgb(68, 67, 67);
+  background-color: rgba(0, 0, 0, 0.82);
   padding-bottom: 30px;
 }
 #About h2{
@@ -92,11 +105,17 @@ hr.divider {
   margin: auto;
   font-size: larger;
 }
+#Things{
+  margin-top: 30px;
+}
+#Things p{
+  font-weight: 850;
+}
 #events{
   margin-top: 10px;
 }
 #past{
-  background-color: rgb(68, 67, 67); 
+  background-color: rgba(0, 0, 0, 0.82); 
 }
 #past ul li{
 color: white;
@@ -121,12 +140,63 @@ color: white;
 
 }
 #Team{
-
   padding-top: 20px;
-  background-color: rgb(68, 67, 67);
+  background-color: rgba(0, 0, 0,0.86);
   color: white;
+}
+#Team img{
+  width: 50%;
+  border: 3px solid rgb(197, 190, 190);
+  border-radius: 50%;
 }
 
 
 
 
+
+.head-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+border-radius: 50%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  border-radius: 50%;
+  transition: .3s ease;
+  background-color: rgba(255,0,0,0.5);
+}
+
+.head-container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
