@@ -145,37 +145,23 @@ color: white;
   color: white;
 }
 #Team img{
-  width: 50%;
+  width: 175px;
   border: 3px solid rgb(197, 190, 190);
   border-radius: 50%;
 }
-
-
-
-
-
 .head-container {
   position: relative;
-  width: 100%;
+  width: 175px;
   max-width: 400px;
 }
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-border-radius: 50%;
-
-}
-
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 50%;
+  height: auto;
+  width: 175px;
   opacity: 0;
   border-radius: 50%;
   transition: .3s ease;
@@ -199,4 +185,11 @@ border-radius: 50%;
 
 .fa-user:hover {
   color: #eee;
+}
+#head-text h3{
+  margin-left: 14px;
+}
+#head-text h5{
+  margin-top: -10px;
+  margin-left: 58px;
 }
